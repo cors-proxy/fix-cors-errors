@@ -1,0 +1,29 @@
+{
+  "name": "fix-cors-errors",
+  "version": "1.0.0",
+  "description": "Simple node module to fix CORS errors in your browser",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "keywords": [
+    "cors",
+    "cors-fix",
+    "cors-gate",
+    "cors-error",
+    "cors-proxy",
+    "cors-headers",
+    "cors-middleware",
+    "cors-express-middleware"
+  ],  
+  "author": "CorsProxy.io",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.4"
+  }
+}
